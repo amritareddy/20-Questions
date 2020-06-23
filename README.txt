@@ -1,0 +1,1 @@
+For the new class I imported the Java class ImageIcon and used it to add a gif. 

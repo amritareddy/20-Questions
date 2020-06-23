@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<question id="Is it a winter sport?">
+	<a_yes a = "yes">
+		<question id="Is it normally played indoors?">
+			<a_yes a = "yes">
+				<question id="Is it an artistic sport?">
+					<a_yes a = "yes">
+						<guess text="Figure Skating">
+						</guess>
+					</a_yes>
+					<a_no>
+						<guess text="Ice Hockey">
+                </guess>
+					</a_no>
+				</question>
+				</a_yes>
+				<a_no>
+					<question id="Does it require to use of skis?">
+
+						<a_yes a = "yes">
+							<guess text="Skiing">
+							</guess>
+						</a_yes>
+						<a_no>
+							<guess text="Snowboarding">
+							</guess>
+						</a_no>
+						</question>
+				</a_no>
+		</question>
+	</a_yes>
+	<a_no>
+		<question id="Does it involve the use of some kind of ball?">
+			<a_yes a = "yes">
+				<question id="Does it involve the use of a net?">
+					<a_yes a = "yes">
+						<question id="Does it use rackets?">
+							<a_yes a = "yes">
+								<guess text="Tennis">
+								</guess>
+							</a_yes>
+							<a_no>
+								<guess test="Volleyball">
+								</guess>
+							</a_no>
+						</question>
+					</a_yes>
+					<a_no>
+						<question id="Does it use goals?">
+							<a_yes a = "yes">
+								<question id="Can you touch the ball with some part of your body?">
+									<a_yes a = "yes">
+										<guess text="Soccer">
+										</guess>
+									</a_yes>
+									<a_no>
+										<guess text="Field Hockey">
+										</guess>
+									</a_no>
+								</question>
+							</a_yes>
+							<a_no>
+								<question id="Does it involve the use of a bat?">
+									<a_yes a = "yes">
+										<question id="Do wickets play an important role in the game?">
+											<a_yes a = "yes">
+												<guess text="Cricket">
+												</guess>
+											</a_yes>
+											<a_no>
+												<guess text="Baseball">
+												</guess>
+											</a_no>
+										</question>
+									</a_yes>
+									<a_no>
+										<question id="Does it have four quarters?">
+											<a_yes a = "yes">
+												<guess text="Basketball">
+												</guess>
+											</a_yes>
+											<a_no>
+												<guess text="Golf">
+												</guess>
+
+											</a_no>
+										</question>
+									</a_no>
+								</question>
+							</a_no>
+						</question>
+					</a_no>
+				</question>
+			</a_yes>
+			<a_no>
+				<question
+					id="Is the equipment used in these sports once considered a weapon?">
+					<a_yes a = "yes">
+						<question
+							id="Does the sport use equiment that conducts electricity in order to determine score?">
+							<a_yes a = "yes">
+								<guess text="Fencing">
+								</guess>
+							</a_yes>
+							<a_no>
+								<guess text="Archery">
+								</guess>
+							</a_no>
+						</question>
+					</a_yes>
+					<a_no>
+						<question id="Is it a water sport?">
+							<a_yes a = "yes">
+								<question id="Does it involve racing?">
+									<a_yes a = "yes">
+										<guess text="Swimming">
+										</guess>
+									</a_yes>
+									<a_no>
+										<guess text="Diving">
+										</guess>
+									</a_no>
+								</question>
+							</a_yes>
+							<a_no>
+								<guess text="Gymnastics">
+								</guess>
+							</a_no>
+						</question>
+					</a_no>
+				</question>
+			</a_no>
+		</question>
+	</a_no>
+</question>
